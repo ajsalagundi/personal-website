@@ -1,0 +1,16 @@
+$secondary-color: #e65100;
+$accent-color: #263238;
+$primary-color: #f5f5f5;
+
+body {
+  background-color: $secondary-color;
+
+  #NavBarList {
+    color: $primary-color;
+  }
+}
+
+#landing{
+  background-color: $secondary-color;
+  height: 100vh;
+}
