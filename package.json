@@ -1,8 +1,0 @@
-{
-  "name": "personal-website",
-  "version": "1.0.0",
-  "dependencies": {},
-  "engines": {
-    "node": "14.2.x"
-  }
-}
