@@ -3,9 +3,9 @@ import React from 'react';
 export default class Header extends React.Component {
     render(){
         return(
-            <nav className="sticky flex items-center justify-between flex-wrap bg-orange p-4">
+            <nav className="sticky flex items-center justify-between flex-wrap bg-orange-600 p-4">
                 <div className="flex items-center flex-shrink-0 text-white mr-6">
-                    <span className="font-semibold text-3xl tracking-tight ml-20 text-black">AS</span>
+                    <span className="font-semibold text-3xl tracking-tight ml-20 text-orange-200">AS</span>
                 </div>
                 <div className="block lg:hidden">
                     <button
@@ -17,7 +17,7 @@ export default class Header extends React.Component {
                     </button>
                 </div>
                 <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-                    <div className="text-sm flex w-full justify-end">
+                    <div className="text-sm flex w-full justify-end text-orange-200">
                         <a href="#responsive-header"
                            className="flex text-xl hover:text-white mr-10">
                             About
