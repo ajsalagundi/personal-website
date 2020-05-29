@@ -19,15 +19,15 @@ export default class Header extends React.Component {
                 <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
                     <div className="text-sm flex w-full justify-end text-orange-200">
                         <a href="#about"
-                           className="flex text-xl hover:text-white mr-10">
+                           className="flex text-xl hover:text-white hover:bg-gray-900 px-3 mr-10">
                             About
                         </a>
                         <a href="#projs"
-                           className="flex text-xl hover:text-white mr-10">
+                           className="flex text-xl hover:text-white hover:bg-gray-900 px-3 mr-10">
                             Projects
                         </a>
                         <a href="#contact"
-                           className="flex text-xl hover:text-white mr-20">
+                           className="flex text-xl hover:text-white hover:bg-gray-900 px-3 mr-20">
                             Contact
                         </a>
                     </div>
