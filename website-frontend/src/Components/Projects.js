@@ -1,18 +1,16 @@
 import React from "react";
 
-class Dashboard extends React.Component {
-    state = { show: false };
-
-    showModal = () => {
-        this.setState({show: true});
-    }
-
-    hideModal = () => {
-        this.setState({show: false});
-    }
-}
-
 export default class Projects extends React.Component {
+    function = () => {
+        const [showModal, setShowModal] = React.useState(false);
+
+        return(
+            <>
+
+            </>
+        )
+    };
+
     render() {
         return (
             <section id={"projs"} className={"w-screen flex bg-gray-900 pb-10"} style={{height: '1800px'}}>
