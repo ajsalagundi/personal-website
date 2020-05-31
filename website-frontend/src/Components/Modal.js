@@ -19,9 +19,9 @@ export default function Modal(props){
                         onClick={() => setShowModal(false)}
                     >
                         <div className="relative w-auto my-6 mx-auto max-w-3xl">
-                            <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-orange-600 outline-none focus:outline-none">
+                            <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-gray-200 outline-none focus:outline-none">
                                 <div className="flex items-start justify-between p-5 border-b border-solid border-gray-900 rounded-t">
-                                    <h3 className="text-3xl font-semibold text-orange-200">
+                                    <h3 className="text-3xl font-semibold text-gray-900">
                                         {props.name}
                                     </h3>
                                     <button
@@ -34,13 +34,13 @@ export default function Modal(props){
                                     </button>
                                 </div>
                                 <div className="relative p-6 flex-auto">
-                                    <p className="my-4 text-orange-200 text-lg leading-relaxed">
+                                    <p className="my-4 text-gray-900 text-lg leading-relaxed">
                                         {props.message}
                                     </p>
                                 </div>
                                 <div className="flex items-center justify-end p-6 border-t border-solid border-gray-900 rounded-b">
                                     <button
-                                        className="text-gray-100 bg-gray-900 font-bold uppercase px-6 py-2 text-sm rounded hover:bg-gray-200 hover:text-orange-700 mr-1 mb-1"
+                                        className="text-gray-100 bg-gray-900 font-bold uppercase px-6 py-2 text-sm rounded hover:bg-orange-600 hover:text-gray-900 mr-1 mb-1"
                                         type={"button"}
                                         style={{transition: "all .15s ease"}}
                                         onClick={() => setShowModal(false)}

@@ -18,7 +18,7 @@
   },
   "scripts": {
     "start": "npm run watch:css && react-scripts start",
-    "build": "npm run build:css && react-scripts build && rm -fr ../../../server/build/* && mv ./build/* ../../../server/build/",
+    "build": "npm run build:css && react-scripts build && rm -fr ../../fullstack-react-Heroku/build/* && mv ./build/* ../../fullstack-react-Heroku/build/",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "build:css": "postcss ./src/Assets/tailwind.css -o ./src/Assets/main.css",
