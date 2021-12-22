@@ -106,3 +106,7 @@ dist
 .idea
 
 .gitignore
+
+.vscode
+
+/node_modules/
